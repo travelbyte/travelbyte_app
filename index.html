@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TravelByte - Explore the World with Tech</title>
     <link rel="icon" href="./assets/logo.png" type="image/png">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for social media icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS (async loading) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'" as="style">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"></noscript>
+    <!-- Font Awesome (async loading) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'" as="style">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></noscript>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -112,10 +114,10 @@
                     <a class="nav-link" href="#content">Travel</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about-us">Technology</a>
+                    <a class="nav-link" href="#content">Technology</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact-us">Other</a>
+                    <a class="nav-link" href="#content">Other</a>
                 </li>
             </ul>
         </div>
@@ -133,69 +135,8 @@
 <!-- Content Section -->
 <section id="content" class="content-section" style="padding-bottom: 20px;">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 content-card">
-                <div class="card">
-                    <iframe width="100%" height="200px" src="https://www.youtube.com/embed/ndL1lV5NLFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="card-body">
-                        <p class="card-text">Discover the latest gadgets and tools to enhance your travel experiences.</p>
-                        <a href="https://travelbyte.github.io/travelbyte/" target="_blank" class="btn btn-primary btn-sm">Visit Website</a>
-                        <a href="https://www.youtube.com/watch?v=ndL1lV5NLFE" target="_blank" class="btn btn-danger btn-sm">View on YouTube</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 content-card">
-                <div class="card">
-                    <iframe width="100%" height="200px" src="https://www.youtube.com/embed/i3y6IAKkLxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="card-body">
-                        <p class="card-text">Explore breathtaking destinations and find inspiration for your next adventure.</p>
-                        <a href="https://travelbyte.github.io/travelbyte/" target="_blank" class="btn btn-primary btn-sm">Visit Website</a>
-                        <a href="https://www.youtube.com/watch?v=ndL1lV5NLFE" target="_blank" class="btn btn-danger btn-sm">View on YouTube</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 content-card">
-                <div class="card">
-                    <iframe width="100%" height="200px" src="https://www.youtube.com/embed/d3QvsY53y5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="card-body">
-                        <p class="card-text">Get expert travel tips and tricks to make your journey smoother.</p>
-                        <a href="https://travelbyte.github.io/travelbyte/" target="_blank" class="btn btn-primary btn-sm">Visit Website</a>
-                        <a href="https://www.youtube.com/watch?v=ndL1lV5NLFE" target="_blank" class="btn btn-danger btn-sm">View on YouTube</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 content-card">
-                <div class="card">
-                    <iframe width="100%" height="200px" src="https://www.youtube.com/embed/ndL1lV5NLFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="card-body">
-                        <p class="card-text">Discover the latest gadgets and tools to enhance your travel experiences.</p>
-                        <a href="https://travelbyte.github.io/travelbyte/" target="_blank" class="btn btn-primary btn-sm">Visit Website</a>
-                        <a href="https://www.youtube.com/watch?v=ndL1lV5NLFE" target="_blank" class="btn btn-danger btn-sm">View on YouTube</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 content-card">
-                <div class="card">
-                    <iframe width="100%" height="200px" src="https://www.youtube.com/embed/ndL1lV5NLFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="card-body">
-                        <p class="card-text">Explore breathtaking destinations and find inspiration for your next adventure.</p>
-                        <a href="https://travelbyte.github.io/travelbyte/" target="_blank" class="btn btn-primary btn-sm">Visit Website</a>
-                        <a href="https://www.youtube.com/watch?v=ndL1lV5NLFE" target="_blank" class="btn btn-danger btn-sm">View on YouTube</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 content-card">
-                <div class="card">
-                    <iframe width="100%" height="200px" src="https://www.youtube.com/embed/ndL1lV5NLFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <div class="card-body">
-                        <p class="card-text">Get expert travel tips and tricks to make your journey smoother.</p>
-                        <a href="https://travelbyte.github.io/travelbyte/" target="_blank" class="btn btn-primary btn-sm">Visit Website</a>
-                        <a href="https://www.youtube.com/watch?v=ndL1lV5NLFE" target="_blank" class="btn btn-danger btn-sm">View on YouTube</a>
-                    </div>
-                </div>
-            </div>     
+        <div class="row" id="contentRow">
+            <!-- Content cards will be injected here -->
         </div>
     </div>
 </section>
@@ -203,12 +144,12 @@
 <!-- Footer -->
 <footer>
     <div class="container">
-        <p>&copy; 2024 TravelByte. All Rights Reserved. Develop and maintain by Praveen Sanpada</p>
+        <p>&copy; 2024 TravelByte. All Rights Reserved. Developed and maintained by Praveen Sanpada</p>
     </div>
 </footer>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap JS (defer loading) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
 
 <!-- JavaScript for Navbar Auto-Close -->
 <script>
@@ -216,10 +157,46 @@
         link.addEventListener('click', function() {
             var navbarToggler = document.querySelector('.navbar-toggler');
             var navbarCollapse = document.querySelector('.navbar-collapse');
-            if (navbarToggler.classList.contains('collapsed') === false) {
+            if (!navbarToggler.classList.contains('collapsed')) {
                 navbarToggler.click();
             }
         });
+    });
+</script>
+
+<!-- JavaScript to Fetch and Display Data -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch('api/data.json')
+            .then(response => response.json())
+            .then(data => {
+                const contentRow = document.getElementById('contentRow');
+                let fragment = document.createDocumentFragment(); // Use a document fragment
+                let count = 0;
+
+                data.forEach(item => {
+                    if (item.status === 1 && count < 100) {
+                        const col = document.createElement('div');
+                        col.classList.add('col-md-4', 'content-card');
+
+                        col.innerHTML = `
+                            <div class="card">
+                                <iframe loading="lazy" width="100%" height="200px" src="${item.link.replace('watch?v=', 'embed/')}" title="${item.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="card-body">
+                                    <p class="card-text">${item.title}</p>
+                                    <a href="https://travelbyte.github.io/travelbyte/" target="_blank" class="btn btn-primary btn-sm">Visit Website</a>
+                                    <a href="${item.link}" target="_blank" class="btn btn-danger btn-sm">View on ${item.platform}</a>
+                                </div>
+                            </div>
+                        `;
+                        fragment.appendChild(col);
+                        count++;
+                    }
+                });
+
+                contentRow.appendChild(fragment); // Append the fragment once
+            })
+            .catch(error => console.error('Error fetching data:', error));
     });
 </script>
 
